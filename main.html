@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>China Town - Chinese Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">🏮 China Town</h1>
+
+      <!-- Hamburger Icon -->
+      <div class="menu-toggle" id="menu-toggle">
+        ☰
+      </div>
+
+      <!-- Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to China Town</h2>
+      <p>Authentic Chinese Cuisine Served Fresh Every Day</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+ <!-- Menu Section -->
+<section id="menu" class="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-items">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1630914441929-0d8ea69f95e6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZyaWVkJTIwcmljZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Fried Rice" />
+      <h3>Fried Rice</h3>
+      <p>Classic wok-tossed rice with vegetables, egg, and soy sauce.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f" alt="Dumplings" />
+      <h3>Dumplings</h3>
+      <p>Handmade dumplings stuffed with pork and vegetables.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1553621042-f6e147245754" alt="Chow Mein" />
+      <h3>Chow Mein</h3>
+      <p>Stir-fried noodles with chicken, vegetables, and soy sauce.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1664992960082-0ea299a9c53e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNoaWNrZW4lMjByaWNlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600" alt=" Chicken Rice" />
+      <h3>chicken Rice</h3>
+      <p>Crispy chicken tossed in tangy sweet and sour sauce with Rice.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1669340781012-ae89fbac9fc3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3ByaW5nJTIwcm9sbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Spring Rolls" />
+      <h3>Spring Rolls</h3>
+      <p>Golden-fried rolls filled with seasoned vegetables and noodles.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0" alt="Kung Pao Chicken" />
+      <h3>Kung Pao Chicken</h3>
+      <p>Spicy stir-fry with chicken, peanuts, and bell peppers.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://media.istockphoto.com/id/1333237321/photo/hot-and-sour-soup.webp?a=1&b=1&s=612x612&w=0&k=20&c=GRd9k4yxhzhedA0tppEq3CyYO77Ch8RW4jj9-rN2B3U=" alt="Hot and Sour Soup" />
+      <h3>Hot & Sour Soup</h3>
+      <p>A perfect blend of spicy, tangy, and savory flavors with tofu and mushrooms.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://plus.unsplash.com/premium_photo-1661600410445-670cdcb0b50f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN0ZWFtZWQlMjBiYW98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600" alt="Steamed Bao" />
+      <h3>Steamed Bao</h3>
+      <p>Soft steamed buns filled with barbecue pork or vegetables.</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      China Town has been serving authentic Chinese food since 1990. 
+      Our chefs combine traditional recipes with fresh local ingredients 
+      to create a truly memorable dining experience. Come enjoy the 
+      flavors of China, right in your neighborhood!
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 123 Main Street, Your City</p>
+    <p>📞 +91 98765 43210</p>
+    <p>🕒 Open Daily: 11 AM - 10 PM</p>
+    <a href="mailto:info@chinatown.com" class="btn">Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 China Town Restaurant | Designed with ❤️</p>
+  </footer>
+
+  <!-- Small JavaScript for menu toggle -->
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const links = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
